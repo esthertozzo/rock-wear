@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+
+<body class="bg-body-tertiary">
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top card">
+    <div class="container-fluid">
+      <a clayss="navbar-brand mx-5 mt-3" href="#"><img src="img/logoRW.png" alt="" width="25%" class="ms-5"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse ms-5" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active text-uppercase" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase" href="#destaques">destaques</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-uppercase" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Categorias
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item text-uppercase" href="#categorias">Camisetas</a></li>
+              <li><a class="dropdown-item text-uppercase" href="#categorias">Funkos</a></li>
+              <li><a class="dropdown-item text-uppercase" href="#categorias">Calçados</a></li>
+              <li><a class="dropdown-item text-uppercase" href="#categorias">Acessórios</a></li>
+              <li><a class="dropdown-item text-uppercase" href="#categorias">Música</a></li>
+              <li><a class="dropdown-item text-uppercase" href="#categorias">Bandeiras</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase" href="#filiais">filiais</a>
+          </li>
+
+        </ul>
+
+        <img role="button" tabindex="0" src="img/cart-fill.svg" alt="" class="mx-3">
+        <img role="button" tabindex="0" src="img/heart-fill.svg" alt="" class="mx-3">
+
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Pesquise um produto" aria-label="Search">
+          <img role="button" tabindex="0" src="img/search.svg" alt="" class="me-5">
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <section class="main__sec">
+    <h1 class="position-relative text-uppercase text-light fw-bold">rockstar collection</h1>
+    <div class="d-md-flex justify-content-md-center">
+      <button class="btn btn-outline-light position-relative" type="button" style="width: 100%; border-radius: 2px;">Compre agora</button>
+    </div>
+  </section>
+
+  <section class="title destaques" id="destaques">
+    <div class="text-center my-5 text-uppercase">
+      <h1><span>destaques</span></h1>
+      <hr class="w-25 m-auto">
+    </div>
+    <div class="cards1 container text-center">
+      <div class="row justify-content-md-center column-gap-5">
+        <div class="col-md-auto px-2">
+          <div class="card" style="width: 20rem; border: none;">
+            <img src="img/p1.png" class="card-img-top p-3" alt="...">
+            <div class="card-body">
+  
+              <p class="card-text text-center mb-3">Camiseta Black Sabbath</p>
+              <h5 class="text-center mb-3">R$159.99</h5>
+              <a href="#" class="btn btn-outline-dark d-md-flex justify-content-md-center" style="border-radius: 2px;">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-auto px-2">
+          <div class="card" style="width: 20rem; border: none;">
+            <img src="img/p2.png" class="card-img-top p-3" alt="...">
+            <div class="card-body">
+  
+              <p class="card-text text-center mb-3">Funko pop Megadeth</p>
+              <h5 class="text-center mb-3">R$129.99</h5>
+              <a href="#" class="btn btn-outline-dark d-md-flex justify-content-md-center" style="border-radius: 2px;">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-auto px-2">
+          <div class="card" style="width: 20rem; border: none;">
+            <img src="img/p3.png" class="card-img-top p-3" alt="...">
+            <div class="card-body">
+  
+              <p class="card-text text-center mb-3">Tenis Slipknot</p>
+              <h5 class="text-center mb-3">R$249.90</h5>
+              <a href="#" class="btn btn-outline-dark d-md-flex justify-content-md-center" style="border-radius: 2px;">Comprar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      </div>
+
+      <div class="cards1 container text-center mt-5">
+        <div class="row justify-content-md-center column-gap-5">
+          <div class="col-md-auto px-2">
+            <div class="card" style="width: 20rem; border: none;">
+              <img src="img/bone metallica.jpg" class="card-img-top p-3" alt="...">
+              <div class="card-body">
+    
+                <p class="card-text text-center mb-3">Boné Metallica</p>
+                <h5 class="text-center mb-3">R$29.99</h5>
+                <a href="#" class="btn btn-outline-dark d-md-flex justify-content-md-center" style="border-radius: 2px;">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-auto px-2">
+            <div class="card" style="width: 20rem; border: none;">
+              <img src="img/cd guns.jpg" class="card-img-top p-3" alt="...">
+              <div class="card-body">
+    
+                <p class="card-text text-center mb-3">CD Guns n’ Roses</p>
+                <h5 class="text-center mb-3">R$99.90</h5>
+                <a href="#" class="btn btn-outline-dark d-md-flex justify-content-md-center" style="border-radius: 2px;">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-auto px-2">
+            <div class="card" style="width: 20rem; border: none;">
+              <img src="img/bandeira senjutsu.jpg" class="card-img-top p-3" alt="...">
+              <div class="card-body">
+    
+                <p class="card-text text-center mb-3">Bandeira Iron Maiden Senjutsu</p>
+                <h5 class="text-center mb-3">R$107.90</h5>
+                <a href="#" class="btn btn-outline-dark d-md-flex justify-content-md-center" style="border-radius: 2px;">Comprar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        </div>
+  </section>
+
+  <section class="title categorias" id="categorias">
+    <div class="text-center my-5 text-uppercase">
+      <h1><span>categorias</span></h1>
+      <hr class="w-25 m-auto">
+    </div>
+    <div class="cards1 container text-center mt-5">
+      <div class="row justify-content-md-center column-gap-5">
+        <div class="col-md-auto px-2 mb-5">
+          <div class="card" style="width: 20rem; border: none;">
+            <img src="img/camisetas.jpg" class="card-img-top" alt="..." style="height: 200px;">
+            <div class="card-body">
+  
+              <h5 class="text-center mb-3">Camisetas</h5>
+              <p class="card-text text-center mb-3">As melhores camisetas de banda!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-auto px-2">
+          <div class="card" style="width: 20rem; border: none;">
+            <img src="img/funkos.jpg" class="card-img-top" alt="..." style="height: 200px;">
+            <div class="card-body">
+  
+              <h5 class="text-center mb-3">Funkos Pop</h5>
+              <p class="card-text text-center mb-3">Os bonecos mais amados!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-auto px-2">
+          <div class="col-md-auto px-2">
+            <div class="card" style="width: 20rem; border: none;">
+              <img src="img/calcados.jpg" class="card-img-top" alt="..." style="height: 200px;">
+              <div class="card-body">
+    
+                <h5 class="text-center mb-3">Calçados</h5>
+                <p class="card-text text-center mb-3">Os variados tênis estilosos!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-md-center column-gap-5">
+        <div class="col-md-auto px-2 mb-5">
+          <div class="card" style="width: 20rem; border: none;">
+            <img src="img/acessorios.jpg" class="card-img-top" alt="..." style="height: 200px;">
+            <div class="card-body">
+  
+              <h5 class="text-center mb-3">Acessórios</h5>
+              <p class="card-text text-center mb-3">Acessórios sem igual!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-auto px-2">
+          <div class="card" style="width: 20rem; border: none;">
+            <img src="img/cds.jpg" class="card-img-top" alt="..." style="height: 200px;">
+            <div class="card-body">
+  
+              <h5 class="text-center mb-3">Músicas</h5>
+              <p class="card-text text-center mb-3">Os melhores cd´s de bandas!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-auto px-2">
+          <div class="col-md-auto px-2">
+            <div class="card" style="width: 20rem; border: none;">
+              <img src="img/bandeiras.jpg" class="card-img-top" alt="..." style="height: 200px;">
+              <div class="card-body">
+    
+                <h5 class="text-center mb-3">Bandeiras</h5>
+                <p class="card-text text-center mb-3">Os bandeiras de todas as bandas!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="title filiais" id="filiais">
+    <div class="text-center my-5 text-uppercase">
+      <h1><span>filiais</span></h1>
+      <hr class="w-25 m-auto">
+    </div>
+    <table class="table table-striped table-hover mb-5 mx-auto p-5" style="width: 75%;">
+      <thead>
+        <tr>
+          <th scope="col">RCK WR</th>
+          <th scope="col">Endereço</th>
+          <th scope="col">Telefone</th>
+          <th scope="col">Redes Sociais</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">SP</th>
+          <td>Rua Frederico Moura, 40</td>
+          <td>(11) 93003-1418</td>
+          <td>@rockwearsp</td>
+        </tr>
+        <tr>
+          <th scope="row">RJ</th>
+          <td>Rua São Jorge, 32</td>
+          <td>(21) 93003-1418</td>
+          <td>@rockwearrj</td>
+        </tr>
+        <tr>
+          <th scope="row">BH</th>
+          <td>Rua Professora Arlette, 85</td>
+          <td>(31) 93003-1418</td>
+          <td>@rockwearbh</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
